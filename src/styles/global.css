@@ -1,0 +1,34 @@
+body {
+  padding-top: 56px;
+  background-color: #f8f9fa;
+}
+
+.container-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card-custom {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  border: none;
+  margin-bottom: 20px;
+}
+
+.alert-custom {
+  z-index: 1050;
+  position: fixed;
+  top: 70px;
+  right: 20px;
+  min-width: 250px;
+}
+
+.navbar-custom {
+  background-color: #0d6efd;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link,
+.navbar-custom .text-white {
+  color: #ffffff !important;
+}
